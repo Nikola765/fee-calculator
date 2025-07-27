@@ -1,0 +1,15 @@
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/bin/Debug/net8.0/FeeCalculator.Infrastructure.deps.json
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/bin/Debug/net8.0/FeeCalculator.Infrastructure.dll
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/bin/Debug/net8.0/FeeCalculator.Infrastructure.pdb
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/bin/Debug/net8.0/FeeCalculator.Core.dll
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/bin/Debug/net8.0/FeeCalculator.Core.pdb
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/FeeCalculator.Infrastructure.csproj.AssemblyReference.cache
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/FeeCalculator.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/FeeCalculator.Infrastructure.AssemblyInfoInputs.cache
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/FeeCalculator.Infrastructure.AssemblyInfo.cs
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/FeeCalculator.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/FeeCalcu.8FCFE097.Up2Date
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/FeeCalculator.Infrastructure.dll
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/refint/FeeCalculator.Infrastructure.dll
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/FeeCalculator.Infrastructure.pdb
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/ref/FeeCalculator.Infrastructure.dll

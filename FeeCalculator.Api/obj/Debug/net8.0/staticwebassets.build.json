@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xpPVkFuuPVQUNR9/qm2mwPMmMRnUSk5u/mGrykdgrb4=",
+  "Source": "FeeCalculator.Api",
+  "BasePath": "_content/FeeCalculator.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

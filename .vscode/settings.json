@@ -1,0 +1,12 @@
+{
+  "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true,
+    "**/node_modules": true,
+    "**/.git": true
+  },
+  "explorer.excludeGitIgnore": true
+}

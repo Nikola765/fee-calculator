@@ -1,0 +1,11 @@
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/bin/Debug/net8.0/FeeCalculator.Core.deps.json
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/bin/Debug/net8.0/FeeCalculator.Core.dll
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/bin/Debug/net8.0/FeeCalculator.Core.pdb
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/FeeCalculator.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/FeeCalculator.Core.AssemblyInfoInputs.cache
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/FeeCalculator.Core.AssemblyInfo.cs
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/FeeCalculator.Core.csproj.CoreCompileInputs.cache
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/FeeCalculator.Core.dll
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/refint/FeeCalculator.Core.dll
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/FeeCalculator.Core.pdb
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/ref/FeeCalculator.Core.dll
