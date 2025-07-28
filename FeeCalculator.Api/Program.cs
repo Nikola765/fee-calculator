@@ -33,7 +33,6 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 
-    // Use XML comments for better API documentation
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     if (File.Exists(xmlPath))
@@ -91,7 +90,7 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseCors("ProductionPolicy");
-    app.UseHsts(); // Add HSTS header for security
+    app.UseHsts(); // HSTS header for security
 }
 
 app.UseHttpsRedirection();
@@ -121,7 +120,7 @@ app.MapGet("/health", () => new
 var logger = app.Services.GetRequiredService<ILogger<Program>>();
 logger.LogInformation("Fee Calculator API started at {Time}", DateTime.UtcNow);
 logger.LogInformation("Environment: {Environment}", app.Environment.EnvironmentName);
-logger.LogInformation("Swagger UI available at: {SwaggerUrl}", app.Environment.IsDevelopment() ? "https://localhost:7000" : "N/A");
+logger.LogInformation("Swagger UI available at: {SwaggerUrl}", app.Environment.IsDevelopment() ? "http://localhost:5062" : "N/A");
 
 // Pre-warm the fee calculation service
 try

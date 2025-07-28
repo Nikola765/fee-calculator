@@ -20,11 +20,7 @@ namespace FeeCalculator.Api.Controllers
             _logger = logger;
         }
 
-        /// <summary>
-        /// Calculate fee for a single transaction
-        /// </summary>
-        /// <param name="request">Transaction details</param>
-        /// <returns>Calculated fee with applied rules</returns>
+        // Calculate fee for a single transaction
         [HttpPost("calculate")]
         [ProducesResponseType(typeof(FeeResult), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ValidationProblemDetails), StatusCodes.Status400BadRequest)]
@@ -59,11 +55,7 @@ namespace FeeCalculator.Api.Controllers
             }
         }
 
-        /// <summary>
-        /// Calculate fees for multiple transactions in batch
-        /// </summary>
-        /// <param name="batchRequest">Batch of transactions</param>
-        /// <returns>Batch calculation results</returns>
+        // Calculate fees for multiple transactions in batch
         [HttpPost("calculate-batch")]
         [ProducesResponseType(typeof(BatchFeeResult), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ValidationProblemDetails), StatusCodes.Status400BadRequest)]
@@ -100,12 +92,7 @@ namespace FeeCalculator.Api.Controllers
             }
         }
 
-        /// <summary>
-        /// Get calculation history with pagination
-        /// </summary>
-        /// <param name="skip">Number of records to skip</param>
-        /// <param name="take">Number of records to take (max 1000)</param>
-        /// <returns>List of calculation history entries</returns>
+        // Get calculation history with pagination
         [HttpGet("history")]
         [ProducesResponseType(typeof(List<FeeCalculationHistory>), StatusCodes.Status200OK)]
         public async Task<ActionResult<List<FeeCalculationHistory>>> GetCalculationHistory(

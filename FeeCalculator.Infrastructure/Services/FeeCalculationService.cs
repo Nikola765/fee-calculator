@@ -299,18 +299,6 @@ namespace FeeCalculator.Infrastructure.Services
             return Task.FromResult(_ruleProcessors.ToList());
         }
 
-        // // Method to get calculation history (exposed for API)
-        // public async Task<List<FeeCalculationHistory>> GetCalculationHistoryAsync(int skip = 0, int take = 100)
-        // {
-        //     return await Task.FromResult(
-        //         _calculationHistory
-        //             .OrderByDescending(h => h.CalculatedAt)
-        //             .Skip(skip)
-        //             .Take(take)
-        //             .ToList()
-        //     );
-        // }
-
         // Method to toggle processor status
         public Task<bool> ToggleProcessorStatusAsync(int ruleId, bool isActive)
         {

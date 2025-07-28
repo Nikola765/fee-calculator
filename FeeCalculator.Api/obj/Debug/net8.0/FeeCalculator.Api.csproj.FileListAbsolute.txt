@@ -190,3 +190,4 @@
 /Users/nikolachichevski/FeeCalculator/FeeCalculator.Api/obj/Debug/net8.0/FeeCalculator.Api.pdb
 /Users/nikolachichevski/FeeCalculator/FeeCalculator.Api/obj/Debug/net8.0/FeeCalculator.Api.genruntimeconfig.cache
 /Users/nikolachichevski/FeeCalculator/FeeCalculator.Api/obj/Debug/net8.0/ref/FeeCalculator.Api.dll
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Api/obj/Debug/net8.0/FeeCalculator.Api.sourcelink.json

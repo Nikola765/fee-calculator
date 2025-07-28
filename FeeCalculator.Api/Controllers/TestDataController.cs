@@ -6,7 +6,7 @@ namespace FeeCalculator.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [ApiExplorerSettings(IgnoreApi = false)] // Show in Swagger for demo purposes
+    [ApiExplorerSettings(IgnoreApi = false)]
     public class TestDataController : ControllerBase
     {
         private readonly ILogger<TestDataController> _logger;
@@ -16,11 +16,7 @@ namespace FeeCalculator.Api.Controllers
             _logger = logger;
         }
 
-        /// <summary>
-        /// Generate sample transaction data for testing
-        /// </summary>
-        /// <param name="count">Number of transactions to generate (max 1000)</param>
-        /// <returns>List of sample transactions</returns>
+        // Generate random transaction data for testing
         [HttpGet("transactions")]
         [ProducesResponseType(typeof(List<TransactionRequest>), StatusCodes.Status200OK)]
         public ActionResult<List<TransactionRequest>> GenerateTransactions([FromQuery] int count = 10)
@@ -41,10 +37,7 @@ namespace FeeCalculator.Api.Controllers
             return Ok(transactions);
         }
 
-        /// <summary>
-        /// Generate scenario-specific test data for rule validation
-        /// </summary>
-        /// <returns>Test transactions for specific scenarios</returns>
+        // Generate scenario-specific test data for rule validation
         [HttpGet("scenarios")]
         [ProducesResponseType(typeof(List<TransactionRequest>), StatusCodes.Status200OK)]
         public ActionResult<List<TransactionRequest>> GenerateScenarios()
@@ -55,11 +48,7 @@ namespace FeeCalculator.Api.Controllers
             return Ok(scenarios);
         }
 
-        /// <summary>
-        /// Generate a batch for performance testing
-        /// </summary>
-        /// <param name="size">Batch size (max 10000)</param>
-        /// <returns>Batch transaction request</returns>
+        // Generate a batch for performance testing
         [HttpGet("performance-batch")]
         [ProducesResponseType(typeof(BatchTransactionRequest), StatusCodes.Status200OK)]
         public ActionResult<BatchTransactionRequest> GeneratePerformanceBatch([FromQuery] int size = 1000)

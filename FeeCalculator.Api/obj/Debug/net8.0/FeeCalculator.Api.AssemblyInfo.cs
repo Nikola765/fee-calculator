@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FeeCalculator.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57f754593995a96f0b55dd5e3a37e43c483f083b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FeeCalculator.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FeeCalculator.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

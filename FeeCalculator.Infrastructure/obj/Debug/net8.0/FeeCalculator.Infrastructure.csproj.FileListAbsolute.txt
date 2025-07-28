@@ -13,3 +13,4 @@
 /Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/refint/FeeCalculator.Infrastructure.dll
 /Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/FeeCalculator.Infrastructure.pdb
 /Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/ref/FeeCalculator.Infrastructure.dll
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Infrastructure/obj/Debug/net8.0/FeeCalculator.Infrastructure.sourcelink.json

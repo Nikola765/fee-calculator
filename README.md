@@ -5,17 +5,13 @@ Fee calculation engine built with clean architecture principles, featuring a fle
 
 ## Getting Started
 Before you start, make sure you have the following prerequisites installed: 
-- .NET 8
-- VSCode IDE (or some other IDE)
+- .NET 8.0 SDK
+- VSCode IDE
 
 To get started, follow this instructions for local setup:
 1. Clone this repository to your local machine.
 2. Navigate to the cloned directory.
-3. Restore dependencies for all projects
-`dotnet restore`
-4. Build the entire solution
-`dotnet build`
-5. Start the API (Terminal 1)
+3. Start the API
 `cd FeeCalculator.Api`
 `dotnet run`
 

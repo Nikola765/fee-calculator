@@ -20,10 +20,7 @@ namespace FeeCalculator.Api.Controllers
             _logger = logger;
         }
 
-        /// <summary>
-        /// Get all available rule processors
-        /// </summary>
-        /// <returns>List of rule processors with their status</returns>
+        // Get all available rule processors
         [HttpGet("processors")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult> GetRuleProcessors()
@@ -52,12 +49,7 @@ namespace FeeCalculator.Api.Controllers
             }
         }
 
-        /// <summary>
-        /// Toggle rule processor status (activate/deactivate)
-        /// </summary>
-        /// <param name="ruleId">Rule ID to toggle</param>
-        /// <param name="isActive">New status</param>
-        /// <returns>Success response</returns>
+        // Toggle rule processor status (activate/deactivate)
         [HttpPut("processors/{ruleId}/status")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

@@ -9,3 +9,4 @@
 /Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/refint/FeeCalculator.Core.dll
 /Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/FeeCalculator.Core.pdb
 /Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/ref/FeeCalculator.Core.dll
+/Users/nikolachichevski/FeeCalculator/FeeCalculator.Core/obj/Debug/net8.0/FeeCalculator.Core.sourcelink.json
